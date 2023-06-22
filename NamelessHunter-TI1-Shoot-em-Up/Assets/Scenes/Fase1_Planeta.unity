@@ -37716,15 +37716,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c0ceebaeaf2e9343ac3e1e4cbb5139d, type: 2}
     - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
       propertyPath: c2.b
-      value: 0.038768206
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
       propertyPath: c2.g
-      value: 0.038768206
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
       propertyPath: c2.r
-      value: 0.9339623
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f701afcc2f56936469198e95f67707b1, type: 3}

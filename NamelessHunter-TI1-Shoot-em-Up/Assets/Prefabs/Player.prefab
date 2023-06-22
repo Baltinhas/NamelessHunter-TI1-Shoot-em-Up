@@ -102,4 +102,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 0c0ceebaeaf2e9343ac3e1e4cbb5139d, type: 2}
   isBlinking: 0
-  c2: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 0}
+  c2: {r: 1, g: 0, b: 0, a: 0}
