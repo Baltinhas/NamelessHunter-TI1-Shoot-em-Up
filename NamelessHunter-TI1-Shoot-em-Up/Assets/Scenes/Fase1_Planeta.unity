@@ -37714,6 +37714,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 0c0ceebaeaf2e9343ac3e1e4cbb5139d, type: 2}
+    - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
+      propertyPath: c2.b
+      value: 0.038768206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
+      propertyPath: c2.g
+      value: 0.038768206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
+      propertyPath: c2.r
+      value: 0.9339623
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f701afcc2f56936469198e95f67707b1, type: 3}
 --- !u!1 &8905745669099382141 stripped
@@ -37735,7 +37747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 40
   speedY: 40
-  blinking: {fileID: 8905745669099382146}
+  blinking: {fileID: 8905745669099382149}
 --- !u!54 &8905745669099382143
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37778,11 +37790,10 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.0043077, y: 1.5185121, z: 2.3888443}
   m_Center: {x: 0.000688076, y: -0.12221199, z: -1.0477182}
---- !u!114 &8905745669099382146
+--- !u!114 &8905745669099382149 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
+  m_PrefabInstance: {fileID: 8655771730005618328}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8905745669099382141}
   m_Enabled: 1
@@ -37790,6 +37801,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05ef6bab8e733b4080d9b58dc53e307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 0c0ceebaeaf2e9343ac3e1e4cbb5139d, type: 2}
-  isBlinking: 0
-  c2: {r: 1, g: 0, b: 0, a: 1}
