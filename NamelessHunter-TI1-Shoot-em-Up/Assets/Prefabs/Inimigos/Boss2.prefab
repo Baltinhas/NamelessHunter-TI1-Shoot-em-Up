@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1845338743982712982}
   - component: {fileID: 5267452761374056935}
   - component: {fileID: 8666033674003170953}
+  - component: {fileID: 2263837775798639432}
   m_Layer: 0
   m_Name: Boss2
   m_TagString: Untagged
@@ -152,4 +153,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHits: 10
+  blinking: {fileID: 0}
   healthSlider: {fileID: 0}
+--- !u!114 &2263837775798639432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746146629306274391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05ef6bab8e733b4080d9b58dc53e307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 3844c56e5b5b6794385a16cc0edc2a40, type: 2}
+  isBlinking: 0
+  c2: {r: 1, g: 1, b: 1, a: 0}

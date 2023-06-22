@@ -69,6 +69,12 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void Fase2_Espaço()
+    {
+        SceneManager.LoadScene("Fase2_Espaço");
+    }
+    
+    
     public void Victory()
     {
         SceneManager.LoadScene("Victory");

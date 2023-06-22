@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8378878984426568705}
   - component: {fileID: 4893189162820449188}
   - component: {fileID: 7209399713494517614}
-  - component: {fileID: 4852985691988635771}
+  - component: {fileID: 4880045987493993559}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -91,24 +91,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &4852985691988635771
-Animator:
-  serializedVersion: 5
+--- !u!114 &4880045987493993559
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9154712653422880443}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3c2b760d1078b44459dad4062cb5fd7e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4930789fe681b25498fb69169a905196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossName: The Others Leader
+  bossNameText: {fileID: 0}

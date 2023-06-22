@@ -50,7 +50,7 @@ public class BossController : MonoBehaviour
             // Por exemplo, você pode desativar o boss e exibir uma mensagem de vitória
             gameObject.SetActive(false);
             bossNameText.gameObject.SetActive(false);
-            GameController.instance.Victory();
+            GameController.instance.Fase2_Espaço();
         }
     }
 }
