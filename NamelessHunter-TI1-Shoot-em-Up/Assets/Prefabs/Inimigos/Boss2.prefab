@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 3267244310845688045}
   - component: {fileID: 1943390060234704712}
   - component: {fileID: 4403598767568221058}
+  - component: {fileID: 1885877430553107510}
+  - component: {fileID: 1845338743982712982}
+  - component: {fileID: 5267452761374056935}
+  - component: {fileID: 8666033674003170953}
   m_Layer: 0
   m_Name: Boss2
   m_TagString: Untagged
@@ -86,3 +90,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1885877430553107510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746146629306274391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.696821, y: 3.4939902, z: 3.5908265}
+  m_Center: {x: -0.030500889, y: 0.26234257, z: -0.017084837}
+--- !u!54 &1845338743982712982
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746146629306274391}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &5267452761374056935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746146629306274391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724f460766098fb44813c3aa35c9aaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  initialMoveSpeed: 20
+  speedIncreaseAmount: 10
+--- !u!114 &8666033674003170953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746146629306274391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9d6fa8b7b6a9741959341a5bf171aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHits: 10
+  healthSlider: {fileID: 0}

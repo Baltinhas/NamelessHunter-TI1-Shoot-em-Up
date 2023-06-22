@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss2 : MonoBehaviour
+public class Boss2Move : MonoBehaviour
 {
     public Transform[] movePoints; // Pontos de movimento pré-determinados
     public float initialMoveSpeed = 5f; // Velocidade inicial de movimento do objeto
@@ -43,8 +43,8 @@ public class Boss2 : MonoBehaviour
         // Atualiza o temporizador
         timer += Time.deltaTime;
 
-        // Verifica se o temporizador atingiu 5 segundos
-        if (timer >= 5f)
+        // Verifica se o temporizador atingiu 8 segundos
+        if (timer >= 8f)
         {
             // Aumenta a velocidade atual do objeto
             currentMoveSpeed += speedIncreaseAmount;
