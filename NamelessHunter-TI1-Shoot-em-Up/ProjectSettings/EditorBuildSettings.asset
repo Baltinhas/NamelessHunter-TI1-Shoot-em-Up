@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fase2_Espa\xE7o.unity"
     guid: 07ecb3817e60cc24c87dd7331a6c4aae
   - enabled: 1
+    path: Assets/Scenes/Fase3_BossFight1.unity
+    guid: 8b8aceb331da0c545a8a0f86aa454e82
+  - enabled: 1
+    path: Assets/Scenes/Fase4_BossFight2.unity
+    guid: 6ce5a6f201cef2240a0e2cd1d4597fec
+  - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: 8898de73f30c3884589dbc0374198ace
   - enabled: 1

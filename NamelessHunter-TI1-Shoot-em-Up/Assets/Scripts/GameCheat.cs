@@ -15,6 +15,14 @@ public class GameCheat : MonoBehaviour
         {
             ChangeToScene("Fase2_Espaço");
         }
+        else if (Input.GetKeyDown(KeyCode.F3))
+        {
+            ChangeToScene("Fase3_BossFight1");
+        }
+        else if (Input.GetKeyDown(KeyCode.F4))
+        {
+            ChangeToScene("Fase4_BossFight2");
+        }
     }
 
     public void ChangeToScene(string sceneName)
