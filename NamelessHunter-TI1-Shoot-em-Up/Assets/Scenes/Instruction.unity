@@ -900,8 +900,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "-Use as setas do teclado para mover a nave.\n\n-Space bar para fazer a
-    nave atirar.\n\n-Coracoes ao serem coletadas acrescentam 2 de energia ao jogador.(sao5
-    coracoes por level.\n\nNota: O jogo termina quando o jogador derrotar os dois
+    nave atirar.\n\n-Coracoes ao serem coletados acrescentam 2 de energia ao jogador.(5
+    coracoes por level).\n\nNota: O jogo termina quando o jogador derrotar os dois
     bosses da fase 1 e da fase 2 no final de cada fase ou quando tiver sua energia
     reduzida a 0. \n\nGameCheat: F1 muda para fase 1.\nF2 muda para a fase 2.\nF3
     Carrega a boss fight 1.\nF4 carrega a Boss Fight 2."
