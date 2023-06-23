@@ -25,7 +25,7 @@ public class Boss2Controller : MonoBehaviour
             if (currentHits >= maxHits)
             {
                 Destroy(gameObject); // Destroi o objeto Boss2
-                GameController.instance.Victory();
+                GameController.instance.Fase2_Espaço();
             }
             else
             {
