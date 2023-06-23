@@ -718,7 +718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.010193, y: 185}
+  m_AnchoredPosition: {x: 0.010193, y: 106.01}
   m_SizeDelta: {x: 436.6686, y: 114.4789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342965968
@@ -863,8 +863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.0543, y: 4.5109}
-  m_SizeDelta: {x: 1911.8716, y: 557.8121}
+  m_AnchoredPosition: {x: 0.005197, y: -22.9203}
+  m_SizeDelta: {x: 1920, y: 707.6526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347508781
 MonoBehaviour:
@@ -901,9 +901,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "-Use as setas do teclado para mover a nave.\n\n-Space bar para fazer a
     nave atirar.\n\n-Coracoes ao serem coletadas acrescentam 2 de energia ao jogador.(sao5
-    coracoes por level.\n\nNota: O jogo termina quando o jogador derrotar o boss
-    no final da fase ou quando tiver sua energia ate o 0. \n\nGameCheat: F1 muda
-    para fase 1, F2 muda para a fase 2."
+    coracoes por level.\n\nNota: O jogo termina quando o jogador derrotar os dois
+    bosses da fase 1 e da fase 2 no final de cada fase ou quando tiver sua energia
+    reduzida a 0. \n\nGameCheat: F1 muda para fase 1.\nF2 muda para a fase 2.\nF3
+    Carrega a boss fight 1.\nF4 carrega a Boss Fight 2."
 --- !u!222 &1347508782
 CanvasRenderer:
   m_ObjectHideFlags: 0
