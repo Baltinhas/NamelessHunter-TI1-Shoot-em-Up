@@ -14126,6 +14126,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1267239488}
     m_Modifications:
+    - target: {fileID: 1101210569465729790, guid: 99723684318d75c499ad64586346b20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9378776c25ef0414ca88923f458ef9cb, type: 2}
+    - target: {fileID: 1101210569465729790, guid: 99723684318d75c499ad64586346b20c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9378776c25ef0414ca88923f458ef9cb, type: 2}
     - target: {fileID: 1461617492689859371, guid: 99723684318d75c499ad64586346b20c, type: 3}
       propertyPath: m_Name
       value: ARVORES
