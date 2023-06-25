@@ -1864,7 +1864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: -505}
+  m_AnchoredPosition: {x: -26, y: -596}
   m_SizeDelta: {x: 500, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701885496
@@ -3120,8 +3120,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -605, y: -152}
-  m_SizeDelta: {x: 0, y: 182.97289}
+  m_AnchoredPosition: {x: -605, y: -154}
+  m_SizeDelta: {x: 0, y: 299.11633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647666890
 MonoBehaviour:
@@ -3620,7 +3620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: 577}
+  m_AnchoredPosition: {x: 3, y: 647}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814298385
@@ -3645,7 +3645,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Credits:
 
-    
+
 
     Gabriel Ribeiro
 
@@ -3658,7 +3658,7 @@ MonoBehaviour:
 
     https://ambientcg.com/
 
-    
+
 
     Sounds:
 
