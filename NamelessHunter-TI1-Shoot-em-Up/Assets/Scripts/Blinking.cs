@@ -34,6 +34,12 @@ public class Blinking : MonoBehaviour
     {
         isBlinking = false;
         t = 0;
+        StartCoroutine(ResetMaterialColor());
+    }
+
+    IEnumerator ResetMaterialColor()
+    {
+        yield return new WaitForEndOfFrame();
         material.color = c1;
     }
 }

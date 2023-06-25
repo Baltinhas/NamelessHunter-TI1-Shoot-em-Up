@@ -12809,6 +12809,10 @@ PrefabInstance:
       propertyPath: c2.r
       value: 0.3977599
       objectReference: {fileID: 0}
+    - target: {fileID: 4571582014820901167, guid: f701afcc2f56936469198e95f67707b1, type: 3}
+      propertyPath: isBlinking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6038250420768805947, guid: f701afcc2f56936469198e95f67707b1, type: 3}
       propertyPath: blinking
       value: 
