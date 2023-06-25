@@ -27,12 +27,14 @@ public class PlayerMov : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("BulletEnemy"))
+        if (other.gameObject.CompareTag("BulletEnemy") || other.gameObject.CompareTag("Enemy"))
         {
             GameController.instance.PlayerHit();
             blinking.PlayBlink();
             Destroy(other.gameObject);
 
         }
+
     }
+
 }
