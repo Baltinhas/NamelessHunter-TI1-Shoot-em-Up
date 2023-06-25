@@ -8705,7 +8705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655eb02a96d08f6428cf5133cb9bbd9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  group: {fileID: 0}
+  group: {fileID: 705493718}
   triggerTag: Player
 --- !u!114 &509613101
 MonoBehaviour:
@@ -9555,7 +9555,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 41a0de48ee22e81459ddee0a0a619576, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13084,6 +13084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b8ab2aa8d0fe54c86749c95ba4a581, type: 3}
+--- !u!1 &705493718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9154712653422880443, guid: b8f109ab9d8dcce489b980154afc6a68, type: 3}
+  m_PrefabInstance: {fileID: 1409423935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -17421,7 +17426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 41, z: 20.4}
+  m_LocalPosition: {x: 0, y: 41, z: 20.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
